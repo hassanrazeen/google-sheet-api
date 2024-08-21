@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev" : "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "googleapis": "^67.1.0"
+    "express": "^4.19.2",
+    "googleapis": "^67.1.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.22"
   }
 }
